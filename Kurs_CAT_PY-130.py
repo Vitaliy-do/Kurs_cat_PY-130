@@ -1,6 +1,5 @@
 
 # Курсовая по ООП
-from pprint import pprint
 import requests
 import os
 import json
@@ -51,7 +50,6 @@ def response_upload_in_folder():
 download_cat_foto(text)
 create_folder_YD()
 response_upload_in_folder()
-
 
 # Собираем информацию о файле
 file_info = {
